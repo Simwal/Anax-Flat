@@ -1,5 +1,4 @@
 ####Links
 
-* [My website](http://simonwallin.se)
-* [Reddit](https://reddit.com)
-* [Twitter](https://twitter.com)
+* [simonwallin.se](http://simonwallin.se)
+* [W3schools](https://www.w3schools.com/)

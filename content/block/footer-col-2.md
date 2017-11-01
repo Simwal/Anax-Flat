@@ -1,4 +1,4 @@
-####Download
+####Social media
 
-* [GitHub](https://github.com/canax/anax-flat)
-* [Packagist](https://packagist.org/packages/mos/anax-flat)
+* [Facebook](https://www.facebook.com/simon.wallin.180)
+* [Instagram](https://www.instagram.com/simaow/)

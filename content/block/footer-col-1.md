@@ -1,5 +1,4 @@
-####BTH
+####Contact
 
-I am a student at Blekinge Tekniska Högskola. To learn more about BTH visit their website.
 
-[BTH](http://bth.se).
+<a href="mailto:simaow87@gmail.com">simaow87@gmail.com</a>
