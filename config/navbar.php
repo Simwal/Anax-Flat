@@ -14,12 +14,6 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "Home" => [
-                "text"  => t("Home"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Home")
-            ],
-
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -33,17 +27,23 @@ return [
                 "title" => t("About this website")
             ],
 
-            "Test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("A new test page")
+            "Grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("A test page for grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("A new test page for typography")
             ],
         ],
     ],
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -67,9 +67,22 @@ return [
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
+
+            "Grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid?vgrid"),
+                "title" => t("Reports from kmom assignments"),
+                "mark-if-parent" => true,
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography?hgrid"),
+                "title" => t("A new test page for typography")
+            ],
         ],
     ],
-*/
+
 
 
     /**
