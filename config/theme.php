@@ -26,7 +26,11 @@ return [
             //"stylesheets" => ["css/default.min.css"],
             "stylesheets" => ["css/style.min.css",
             "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+<<<<<<< HEAD
             "https://fonts.googleapis.com/css?family=Montserrat",
+=======
+            "stylesheets" => ["https://fonts.googleapis.com/css?family=Montserrat"]
+>>>>>>> ece5d52ad1f20443d021ea1bef86ad154576ee96
         ],
 
 

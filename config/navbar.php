@@ -108,6 +108,7 @@ return [
                 "url"   => $this->di->get("url")->create("typography?hgrid"),
                 "title" => t("A new test page for typography")
             ],
+<<<<<<< HEAD
 
             "theme" => [
                 "text"  => t("Theme"),
@@ -120,6 +121,8 @@ return [
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("A theme-selector")
             ],
+=======
+>>>>>>> ece5d52ad1f20443d021ea1bef86ad154576ee96
         ],
     ],
 
