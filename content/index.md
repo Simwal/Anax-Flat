@@ -16,7 +16,7 @@ views:
 Welcome
 ===============================
 
-<img src="img/me.jpg" alt="photo of me" style="float:right; overflow:auto; margin-left:5px;">
+<img class="img-me" src="img/me.jpg" alt="photo of me">
 <p>Hello and welcome to my website that is using the framework Anax Flat. My name is Simon Wallin and I am the creator of this website.</p>
 <p>I live in a city named Halmstad which is located in Sweden.
 I am a web developer and have experience in using for example HTML/CSS, PHP and SQL.

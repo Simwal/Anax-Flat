@@ -1,0 +1,5 @@
+---
+titleBreadcrumb: Color scheme
+...
+Index
+===============================
