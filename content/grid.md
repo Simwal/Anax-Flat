@@ -20,11 +20,6 @@ views:
                 route: block/sidebar-right
 ...
 
-
-
-
-
-
 Grid
 ==============================================
 On this page im trying out a vertical grid. Hope you like it. Here have some zombie and hipster-lorem ipsum, its free!

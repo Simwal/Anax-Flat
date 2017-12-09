@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <div class="grid-sidebar-left">
-=======
-<div class="sidebar-left">
->>>>>>> ece5d52ad1f20443d021ea1bef86ad154576ee96
     <h2>Sidebar left</h2>
     <p>This is a page where I am trying out a vertical grid. To the right you can see some hipster-lorum ipsum.I will give you some Zombie-lorem ipsum after this sentance.</p>
 

@@ -14,18 +14,56 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "Assignments" => [
+               "text"  =>"<i class=\"fa fa-folder-open-o\"></i> Assignments",
+               "url"   => $this->di->get("url")->create("#"),
+               "title" => "Assignements",
+               "submenu" => [
+                   "items" => [
+                       "analysis" => [
+                           "text"  =>"Analysis",
+                           "url"   => $this->di->get("url")->create("analysis"),
+                           "title" => "Analysis of color schemes and usibility"
+                       ],
+                       "grid" => [
+                           "text"  =>"Grid",
+                           "url"   => $this->di->get("url")->create("grid?vgrid"),
+                           "title" => "A test page for grid"
+                       ],
+
+                       "images" => [
+                           "text"  =>"Images",
+                           "url"   => $this->di->get("url")->create("images"),
+                           "title" => "A test page for my images"
+                       ],
+                       "typography" => [
+                           "text"  =>"Typography",
+                           "url"   => $this->di->get("url")->create("typography?hgrid"),
+                           "title" => "A new test page for typography"
+
+                       ],
+                       "theme" => [
+                           "text"  =>"Theme",
+                           "url"   => $this->di->get("url")->create("theme"),
+                           "title" => "A page for my different themes"
+                       ],
+
+                       "blog" => [
+                           "text"  =>"Blog",
+                           "url"   => $this->di->get("url")->create("blog"),
+                           "title" => "My blog page"
+                       ],
+
+                   ],
+               ],
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
-            ],
 
-            "analysis" => [
-                "text"  => t("Analysis"),
-                "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("Analysis of color schemes"),
-                "mark-if-parent" => true,
             ],
 
             "about" => [
@@ -34,29 +72,12 @@ return [
                 "title" => t("About this website")
             ],
 
-            "Grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid?vgrid"),
-                "title" => t("A test page for grid")
-            ],
-
-            "typography" => [
-                "text"  => t("Typography"),
-                "url"   => $this->di->get("url")->create("typography?hgrid"),
-                "title" => t("A new test page for typography")
-            ],
-
-            "theme" => [
-                "text"  => t("Theme"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("A page for my different themes")
-            ],
-
             "theme-selector" => [
                 "text"  => t("Theme-selector"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("A theme-selector")
             ],
+
 
 
         ],
@@ -76,18 +97,56 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "Assignments" => [
+               "text"  =>"<i class=\"fa fa-folder-open-o\"></i> Assignments",
+               "url"   => $this->di->get("url")->create("#"),
+               "title" => "Assignements",
+               "submenu" => [
+                   "items" => [
+                       "analysis" => [
+                           "text"  =>"Analysis",
+                           "url"   => $this->di->get("url")->create("analysis"),
+                           "title" => "Analysis of color schemes and usibility"
+                       ],
+                       "grid" => [
+                           "text"  =>"Grid",
+                           "url"   => $this->di->get("url")->create("grid?vgrid"),
+                           "title" => "A test page for grid"
+                       ],
+
+                       "images" => [
+                           "text"  =>"Images",
+                           "url"   => $this->di->get("url")->create("images"),
+                           "title" => "A test page for my images"
+                       ],
+                       "typography" => [
+                           "text"  =>"Typography",
+                           "url"   => $this->di->get("url")->create("typography?hgrid"),
+                           "title" => "A new test page for typography"
+
+                       ],
+                       "theme" => [
+                           "text"  =>"Theme",
+                           "url"   => $this->di->get("url")->create("theme"),
+                           "title" => "A page for my different themes"
+                       ],
+
+                       "blog" => [
+                           "text"  =>"Blog",
+                           "url"   => $this->di->get("url")->create("blog"),
+                           "title" => "My blog page"
+                       ],
+
+                   ],
+               ],
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
-            ],
 
-            "analysis" => [
-                "text"  => t("Analysis"),
-                "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("Analysis of color schemes"),
-                "mark-if-parent" => true,
             ],
 
             "about" => [
@@ -96,33 +155,13 @@ return [
                 "title" => t("About this website")
             ],
 
-            "Grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid?vgrid"),
-                "title" => t("Reports from kmom assignments"),
-                "mark-if-parent" => true,
-            ],
-
-            "typography" => [
-                "text"  => t("Typography"),
-                "url"   => $this->di->get("url")->create("typography?hgrid"),
-                "title" => t("A new test page for typography")
-            ],
-<<<<<<< HEAD
-
-            "theme" => [
-                "text"  => t("Theme"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("A page for my different themes")
-            ],
-
             "theme-selector" => [
                 "text"  => t("Theme-selector"),
                 "url"   => $this->di->get("url")->create("theme-selector"),
                 "title" => t("A theme-selector")
             ],
-=======
->>>>>>> ece5d52ad1f20443d021ea1bef86ad154576ee96
+
+
         ],
     ],
 
