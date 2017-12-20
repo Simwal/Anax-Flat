@@ -88,5 +88,57 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "Theme1"       => [
+            "title"      => "First theme using design elements",
+            "class"      => "theme1",
+            "stylesheets" => [
+                "css/theme1.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            ]
+        ],
+
+        "Theme2"       => [
+            "title"      => "Second theme using design elements",
+            "class"      => "theme2",
+            "stylesheets" => [
+                "css/theme2.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            ]
+        ],
+
+        "Theme3"       => [
+            "title"      => "Third theme using design elements",
+            "class"      => "theme3",
+            "stylesheets" => [
+                "css/theme3.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            ]
+        ],
+
+        "separator4" => "------------------------------------------------",
+
+        "Theme4"       => [
+            "title"      => "Theme using design principle - harmony & unity",
+            "class"      => "theme4",
+            "stylesheets" => [
+                "css/theme4.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+            ]
+        ],
+
+        "Theme5"       => [
+            "title"      => "Theme using design principle - contrast & asymmetry",
+            "class"      => "theme5",
+            "stylesheets" => [
+                "css/theme5.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+                "https://fonts.googleapis.com/css?family=Montserrat",
+            ]
+        ],
     ]
+
+
 ];

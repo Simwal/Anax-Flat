@@ -1,4 +1,4 @@
 <div class="byline">
-    <img class="img-me-small"src="img/me-small.jpg" alt="small photo of me" >
-    <p>Simon Wallin is studying at BTH. Simon is taking the course Teknisk webbdesign och användbarthet.</p>
+    [FIGURE src="image/me-small.jpg?w=100&h=100" alt="small photo of me" class="left" id="img-me-small"]
+    <p>Simon Wallin is studying at BTH. Simon is taking the course Teknisk webbdesign och användbarhet.</p>
 </div>

@@ -5,7 +5,7 @@ Jag valde att analysera tre webbsidor som jag ofta besöker. De sidor jag har an
 
 <h2>Reddit</h2>
 
-![Reddit](img/reddit.png)
+[FIGURE src="image/reddit.png" alt="reddit"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tbody><tr>
@@ -22,7 +22,7 @@ Reddit är en sida som består av användarproducerat material och jag tycker at
 
 <h2>Aftonbladet</h2>
 
-![Aftonbladet](img/aftonbladet.png)
+[FIGURE src="image/aftonbladet.png" alt="aftonbladet"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tbody><tr>
@@ -42,7 +42,7 @@ Jag tycker att de lyckas med sin färgprofil då färgerna är återkommande gen
 
 <h2>Elgiganten</h2>
 
-![Elgiganten](img/elgiganten.png)
+[FIGURE src="image/elgiganten.png" alt="elgiganten"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tbody><tr>
