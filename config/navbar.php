@@ -25,6 +25,7 @@ return [
                            "url"   => $this->di->get("url")->create("analysis"),
                            "title" => "Analysis of color schemes and usibility"
                        ],
+<<<<<<< HEAD
 
                        "design-elements" => [
                           "text"  =>"Design elements",
@@ -38,6 +39,8 @@ return [
                          "title" => "A test page for themes with design principles"
                        ],
 
+=======
+>>>>>>> 21bbd04a96eb16edad5f43b3d60e8d4008e50d99
                        "grid" => [
                            "text"  =>"Grid",
                            "url"   => $this->di->get("url")->create("grid?vgrid"),
@@ -121,6 +124,7 @@ return [
                            "url"   => $this->di->get("url")->create("analysis"),
                            "title" => "Analysis of color schemes and usibility"
                        ],
+<<<<<<< HEAD
 
                        "design-elements" => [
                           "text"  =>"Design elements",
@@ -134,6 +138,8 @@ return [
                          "title" => "A test page for themes with design principles"
                        ],
 
+=======
+>>>>>>> 21bbd04a96eb16edad5f43b3d60e8d4008e50d99
                        "grid" => [
                            "text"  =>"Grid",
                            "url"   => $this->di->get("url")->create("grid?vgrid"),
